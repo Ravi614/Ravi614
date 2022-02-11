@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Ravi Shankar Senior Software Engineer
+- 👋 Hi, I’m Ravi Shankar Senior Software Engineer @ INDEGENE Bengaluru
 - 👀 I’m interested in GoLang Programming
 - 🌱 I’m currently planned to learn Python, MongoDB, JS in depth
 - 📫 Reach me at shankarravi614@gmail.com
