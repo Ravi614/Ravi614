@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Ravi Shankar Senior Software Engineer
 - 👀 I’m interested in GoLang Programming
-- 🌱 I’m currently learning Python, MongoDB, JS
+- 🌱 I’m currently planned to learn Python, MongoDB, JS in depth
 - 📫 Reach me at shankarravi614@gmail.com
 
 <!---
