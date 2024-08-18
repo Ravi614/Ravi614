@@ -1,0 +1,59 @@
+/* Floating social buttons */
+
+/*overriding for social share button from parent theme*/
+.fa {
+    font-family: 'Font Awesome 5 Brands' !important;
+}
+
+.custom-floating-social-buttons {
+    background-color: #E5E4E2;
+    padding: 0.3rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.custom-floating-left {
+    left: 20px;
+}
+
+.custom-floating-right {
+    right: 20px;
+}
+
+.custom-floating-button {
+    display: block;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* .custom-floating-button a{
+    font-family: fantasy !important;
+} */
+
+.custom-floating-button:hover {
+    background-color: #555;
+}
+
+.custom-floating-button i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: inherit;
+    margin-left: 2px;
+}
+
+/* Specific icon styles (Font Awesome assumed) */
+.custom-floating-button.whatsapp { background-color: #25D366; }
+.custom-floating-button.youtube { background-color: #FF0000; }
+.custom-floating-button.facebook { background-color: #3B5998; }
+.custom-floating-button.twitter { background-color: #1DA1F2; }
+.custom-floating-button.instagram { background-color: #C13584; }
