@@ -1,14 +1,17 @@
 <?php
 /**
  * Plugin Name: Custom Floating Social Buttons
- * Description: Adds floating social share buttons on left or right side of the screen.
- * Version: 1.1
+ * Description: Adds floating social share buttons on the left or right side of the screen.
+ * Version: 1.0.0
  * Author: Ravi Shankar
  * License: GPL2+
  */
 
 // Enqueue styles and scripts
 function custom_floating_social_enqueue_scripts() {
+    // Enqueue Font Awesome for icons
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+    
     // Enqueue styles
     wp_enqueue_style('custom-floating-social-style', plugins_url('css/style.css', __FILE__));
     
@@ -104,9 +107,8 @@ function custom_floating_social_render_settings_page() {
         <h1>Custom Floating Social Buttons Settings</h1>
         <form method="post" action="options.php">
             <?php
-            settings_fields('custom-floating-social-settings');
+            settings_fields('custom-floating-social-settings'); // Match the options group name here
             do_settings_sections('custom-floating-social-settings');
-            wp_nonce_field('custom_floating_social_settings_verify'); // Add nonce field for security
             ?>
             <table class="form-table">
                 <tr valign="top">
