@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+/*Event as a card show on front end*/
+.evtb-events {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event-cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px; /* Space between cards */
+}
+
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px); /* Responsive card size */
+    box-sizing: border-box;
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
+
+/* Booking Form Styles on Front-End page */
+#ticket-booking-form {
+    max-width: 600px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#ticket-booking-form input[type="text"],
+#ticket-booking-form input[type="email"],
+#ticket-booking-form select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    margin: 10px 0; /* Spacing between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+#ticket-booking-form button {
+    background-color: #0073aa; /* WordPress blue */
+    color: #fff; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#ticket-booking-form button:hover {
+    background-color: #005177; /* Darker blue on hover */
+}
+
+#qr-code {
+    margin-top: 20px; /* Spacing above QR code section */
+    padding: 20px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background for QR section */
+    display: none; /* Initially hidden */
+}
+
+#qr-code img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#error-message, #success-message {
+    margin: 10px 0; /* Spacing for messages */
+    padding: 10px; /* Inner padding */
+    border-radius: 4px; /* Rounded corners */
+}
+
+#error-message {
+    background-color: #ffdddd; /* Light red background */
+    color: #d8000c; /* Red text */
+}
+
+#success-message {
+    background-color: #ddffdd; /* Light green background */
+    color: #4caf50; /* Green text */
+}
+
+.etb-form-info {
+    color: #007BFF; /* Change to your preferred color */
+    font-weight: bold; /* Or bold if preferred */
+    margin-top: 10px; /* Space above the message */
+    font-size: 14px; /* Adjust size if needed */
+}
