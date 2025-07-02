@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Ravi Shankar Senior Software Engineer @ INDEGENE Bengaluru, INDIA
 - 👀 I’m interested in WordPress, Python and Data Science
-- 🌱 I’m currently planned to learn Python, MongoDB, JS in depth
+- 🌱 I’m currently skilled in WordPress, SQL, Python, JS, React
 - 📫 Reach me at shankarravi614@gmail.com
 
 <!---
